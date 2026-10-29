@@ -9,7 +9,7 @@ def get_current_time() -> str:
     print(dateTime)
     return dateTime
 
-TIME_TOOL = {'name': "current time", 'description': "HI, How are you doing today", 'input_schema': {}}
+TIME_TOOL = {'name': get_current_time, 'description': "HI, How are you doing today", 'input_schema':{"type": "object":, "properties"{}}}
 
 
 currentTime = get_current_time()
